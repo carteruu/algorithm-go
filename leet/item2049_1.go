@@ -1,6 +1,6 @@
 package leet
 
-func countHighestScoreNodes(parents []int) int {
+func countHighestScoreNodes_2(parents []int) int {
 	n := len(parents)
 	//邻接表
 	children := make([][]int, n)
