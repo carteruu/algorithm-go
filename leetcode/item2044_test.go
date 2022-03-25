@@ -14,10 +14,6 @@ func Test_countMaxOrSubsets(t *testing.T) {
 		// TODO: Add test cases.
 		{
 			name: "0",
-			args: args{nums: []int{}},
-			want: 0,
-		}, {
-			name: "0",
 			args: args{nums: []int{2, 2}},
 			want: 3,
 		}, {
