@@ -2,6 +2,7 @@ package leetcode_1
 
 import "sort"
 
+//排序+双指针，因为需要返回下标，所以这种方法有点复杂
 func twoSum(nums []int, target int) []int {
 	//下标切片
 	idx := make([]int, len(nums))
