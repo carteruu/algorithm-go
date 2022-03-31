@@ -15,7 +15,6 @@ func Test_twoSum(t *testing.T) {
 		args args
 		want []int
 	}{
-		// TODO: Add test cases.
 		{
 			name: "0",
 			args: args{
