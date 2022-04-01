@@ -1,10 +1,10 @@
 package leetcode
 
 func numIslands(grid [][]byte) int {
-	var sign func(k, l int)
 	n := len(grid)
 	bytes := grid[0]
 	m := len(bytes)
+	var sign func(k, l int)
 	sign = func(k, l int) {
 		if k < 0 || k >= n || l < 0 || l >= m || grid[k][l] != '1' {
 			return
