@@ -35,8 +35,6 @@ func (this *Codec) se(node *TreeNode, bs *bytes.Buffer) {
 	this.se(node.Right, bs)
 }
 
-type Int *int
-
 // Deserializes your encoded data to tree.
 func (this *Codec) deserialize(data string) *TreeNode {
 	root, _ := this.de(strings.Split(data, seq))

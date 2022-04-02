@@ -1,8 +1,11 @@
 package leetcode_1
 
 func solveNQueens_2(n int) [][]string {
+	//记录各行是否存在皇后
 	rowState := 0
+	//记录各列是否存在皇后
 	colState := 0
+	//记录各条对角线是否存在皇后
 	dia1State := 0
 	dia2State := 0
 	var ans [][]string
