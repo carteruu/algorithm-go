@@ -22,7 +22,37 @@ func Test_reinitializePermutation(t *testing.T) {
 			args: args{
 				n: 4,
 			},
-			want: 1,
+			want: 2,
+		}, {
+			name: "",
+			args: args{
+				n: 4,
+			},
+			want: 2,
+		}, {
+			name: "",
+			args: args{
+				n: 6,
+			},
+			want: 2,
+		}, {
+			name: "",
+			args: args{
+				n: 8,
+			},
+			want: 2,
+		}, {
+			name: "",
+			args: args{
+				n: 10,
+			},
+			want: 2,
+		}, {
+			name: "",
+			args: args{
+				n: 1000,
+			},
+			want: 2,
 		},
 	}
 	for _, tt := range tests {
